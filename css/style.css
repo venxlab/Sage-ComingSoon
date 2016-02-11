@@ -54,7 +54,7 @@ a{
 }
 
 .topBar{
-	margin-bottom: 180px;
+	margin-bottom: 20vh;
 }
 
 .logo{
@@ -62,8 +62,6 @@ a{
 	width: 70px;
 	height: 70px;
 }
-
-
 
 .submenu{
 	display: none;
@@ -83,28 +81,31 @@ a{
 }
 
 
+.submenu h2{
+	font-size: 60px;
+}
+
 .level1 {
 	font: 60px/40px 'Teko', sans-serif;
-	width: 670px;
+	width: 1170px;
 	margin: 45vh auto 0;
 }
 
 .level1 li {
 	float: left;
-	display: inline;
 	line-height: 30px;
-	margin-right: 25px;
+	margin-right: 50px;
 }
 
 .level1 li img{
-	width: 10px;
-	margin-left: 30px;
-	margin-bottom: 5px;
+	width: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .level2{
 	font-family: 'Teko', sans-serif;
-	font-size: 16px; 
+	font-size: 24px; 
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #959595;
@@ -118,18 +119,17 @@ a{
 .submenu footer {
 	width: 100%;
 	position: absolute;
-  bottom: 0;
+  bottom: 8vh;
   left: 0;
-  margin-bottom: 50px;
 }
 
 .submenu_icons {
-	width: 200px;
+	width: 300px;
 	margin: 0 auto;
 }
 
 .submenu_icons li{
-	font-size: 20px;
+	font-size: 35px;
 	float: left;
 	margin-right: 15px;
 }
@@ -249,7 +249,6 @@ button{
 footer {
 	font-size: 13px;
 	color: #959595;
-	margin-bottom: 30px;
 }
 
 footer a{
